@@ -4,6 +4,8 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import {siteConfig} from "../config";
 import Search from "../components/Search.astro";
+import Analytics from '@vercel/analytics/astro';
+
 
 interface Props {
     title?: string;
@@ -21,7 +23,9 @@ const {
 <!DOCTYPE html>
 <html lang={siteConfig.language}>
 <head>
+    <meta charset="utf-8" />
     <BaseHead title={title} description={description} image={image}/>
+    <Analytics />
 </head>
 <script is:inline>
     const setTheme = (theme) => {
