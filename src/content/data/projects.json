@@ -7,8 +7,20 @@
   },
   {
     "id": 2,
-    "title": "Cloudflare AI Web",
-    "repo": "https://github.com/Jazee6/cloudflare-ai-web",
-    "description": "支持Gemini Pro / Cloudflare Workers AI / ChatGPT的融合Web平台"
+    "title": "翅膀 (Feel So Fine)",
+    "repo": "https://www.bilibili.com/video/BV1F8FfetE6r",
+    "description": "【泰妍】4K60FPS 翅膀 (Feel So Fine) 双语字幕 UNSEEN"
+  },
+  {
+    "id": 3,
+    "title": "Circus",
+    "repo": "https://www.bilibili.com/video/BV1GTFfeVEEo",
+    "description": "【泰妍】4K60FPS Circus 双语字幕 UNSEEN"
+  },
+  {
+    "id": 4,
+    "title": "Find Me",
+    "repo": "https://www.bilibili.com/video/BV19MF6efEQK",
+    "description": "  【泰妍】4K60FPS Find Me 双语字幕 UNSEEN"
   }
 ]

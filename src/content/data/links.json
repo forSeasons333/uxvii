@@ -1,9 +1,16 @@
 [
   {
     "id": 1,
-    "title": "Hi! Jazee",
-    "url": "https://jaze.top",
-    "description": "Jazee's Blog",
-    "avatar": "https://jaze.top/avatar.png"
+    "title": "GEMILUXVII",
+    "url": "https://github.com/forSeasons333",
+    "description": "Github",
+    "avatar": "pngs/sss.jpg"
+  },
+  {
+    "id": 2,
+    "title": "奈忘",
+    "url": "https://naiong.github.io/",
+    "description": "奈忘的Blog",
+    "avatar": "naiwang.png"
   }
 ]
