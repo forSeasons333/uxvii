@@ -1,6 +1,7 @@
 ---
 import '../global.css';
 import {siteConfig} from "../config";
+import SpeedInsights from '@vercel/speed-insights/astro';
 
 interface Props {
     title: string;
@@ -12,6 +13,10 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
 const {title, description, image} = Astro.props;
 ---
+
+<title>{title}</title>
+<meta name="title" content={title} />
+<meta name="description" content={description} />
 
 <!-- Global Metadata -->
 <meta charset="utf-8"/>
@@ -44,3 +49,5 @@ const {title, description, image} = Astro.props;
 <meta property="twitter:title" content={title}/>
 <meta property="twitter:description" content={description}/>
 <meta property="twitter:image" content={new URL(image, Astro.url)}/>
+
+<SpeedInsights />
